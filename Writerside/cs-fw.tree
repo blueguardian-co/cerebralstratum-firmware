@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="cs-fw"
+                 name="CEREBRAL STRATUM - Firmware"
+                 start-page="home.md">
+
+    <toc-element topic="home.md"/>
+    <toc-element topic="ADRs.md">
+        <toc-element topic="0001-vehicle-iot-device-architecture.md"/>
+        <toc-element topic="0002-can-bus-injection-attack-detection.md"/>
+    </toc-element>
+</instance-profile>
