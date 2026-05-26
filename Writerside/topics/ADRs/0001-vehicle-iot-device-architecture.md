@@ -12,17 +12,17 @@
 1. [Project Overview](#1-project-overview)
 2. [Core Hardware Stack](#2-core-hardware-stack)
 3. [Communications Architecture](#3-communications-architecture)
-4. [Data Transport & Messaging Strategy](#4-data-transport--messaging-strategy)
+4. [Data Transport & Messaging Strategy](#4-data-transport-messaging-strategy)
 5. [CAN Bus Interface](#5-can-bus-interface)
 6. [Power Architecture](#6-power-architecture)
 7. [Relay Output](#7-relay-output)
 8. [Product Variants](#8-product-variants)
 9. [PCB Design Strategy](#9-pcb-design-strategy)
-10. [Release & Versioning Strategy](#10-release--versioning-strategy)
-11. [Market & Connectivity Coverage](#11-market--connectivity-coverage)
+10. [Release & Versioning Strategy](#10-release-versioning-strategy)
+11. [Market & Connectivity Coverage](#11-market-connectivity-coverage)
 12. [Enclosure Architecture](#12-enclosure-architecture)
 13. [Antenna Strategy](#13-antenna-strategy)
-14. [Open Questions & Next Steps](#14-open-questions--next-steps)
+14. [Open Questions & Next Steps](#14-open-questions-next-steps)
 
 ---
 
