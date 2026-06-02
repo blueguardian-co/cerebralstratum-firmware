@@ -7,26 +7,19 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a66c12d-8c26-46e3-a86a-78a88b2b2ca2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/utils.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/mqtt_utils.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cargo/config.toml" beforeDir="false" afterPath="$PROJECT_DIR$/.cargo/config.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/tracker-firmware.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tracker-firmware.iml" afterDir="false" />
+    <list default="true" id="9a66c12d-8c26-46e3-a86a-78a88b2b2ca2" name="Changes" comment="fix(docs): correct broken anchor links in ADR-0001">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/build-docs.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/build-docs.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platformio.cargo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platformio.git.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platformio.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platformio.patch.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dummy.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib.rs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="26" />
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="RsBuildProfile:dev" />
   <component name="FileTemplateManagerImpl">
@@ -37,10 +30,115 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Alex Hussey &lt;alex@blueguardian.co&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="f3294b63-30db-4042-8e83-e78b457bff31" />
+  </component>
+  <component name="InstanceColorv3">
+    <option name="map">
+      <map>
+        <entry key="$PROJECT_DIR$/Writerside/cs-fw.tree">
+          <value>
+            <ColorState>
+              <option name="customOrder" value="1" />
+              <option name="first">
+                <RgbState>
+                  <option name="blue" value="60" />
+                  <option name="darkBlue" value="60" />
+                  <option name="darkGreen" value="68" />
+                  <option name="darkRed" value="206" />
+                  <option name="green" value="61" />
+                  <option name="red" value="219" />
+                </RgbState>
+              </option>
+              <option name="second">
+                <RgbState>
+                  <option name="blue" value="66" />
+                  <option name="darkBlue" value="65" />
+                  <option name="darkGreen" value="126" />
+                  <option name="darkRed" value="231" />
+                  <option name="green" value="142" />
+                  <option name="red" value="255" />
+                </RgbState>
+              </option>
+            </ColorState>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="77aolxz2" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="1.496732249102199E-86" />
+      <entry key="S2" value="3.4983517687302067E-22" />
+      <entry key="S5" value="2.775311810476378E-9" />
+      <entry key="S10" value="7.305201995257328E-5" />
+      <entry key="S30" value="0.0953253136194193" />
+      <entry key="S60" value="0.6105380172762603" />
+      <entry key="M2" value="1.558588335900554" />
+      <entry key="M5" value="2.7419652978930347" />
+      <entry key="M10" value="3.311444236493722" />
+      <entry key="M15" value="3.5265931258642738" />
+      <entry key="M30" value="3.7558037289705357" />
+      <entry key="H1" value="3.875968572236309" />
+      <entry key="H2" value="3.9374932408336596" />
+      <entry key="H4" value="3.968622880262716" />
+      <entry key="D1" value="3.994753210193314" />
+      <entry key="W1" value="3.9992500345679307" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0000001799394311" />
+      <entry key="S5" value="1.0023169932183165" />
+      <entry key="S10" value="1.0709096539070726" />
+      <entry key="S30" value="1.9690713218421099" />
+      <entry key="S60" value="3.0798838033383373" />
+      <entry key="M2" value="4.1651726272244165" />
+      <entry key="M5" value="5.142834847134588" />
+      <entry key="M10" value="5.547095206946613" />
+      <entry key="M15" value="5.692330619626286" />
+      <entry key="M30" value="5.843211595185338" />
+      <entry key="H1" value="5.920850473951165" />
+      <entry key="H2" value="5.9602342465539335" />
+      <entry key="H4" value="5.980069102693569" />
+      <entry key="D1" value="5.996671490944579" />
+      <entry key="W1" value="5.999524334495183" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="7.478648682921966E-17" />
+      <entry key="MS500" value="5.953394014044446E-4" />
+      <entry key="S2" value="0.15620365881741144" />
+      <entry key="S5" value="0.4767930052749429" />
+      <entry key="S10" value="0.7355813605438485" />
+      <entry key="S30" value="1.8018044071016357" />
+      <entry key="S60" value="3.4594464401296148" />
+      <entry key="M2" value="5.558117827321842" />
+      <entry key="M5" value="7.800380519991253" />
+      <entry key="M10" value="8.812580146792289" />
+      <entry key="M15" value="9.187387268519144" />
+      <entry key="M30" value="9.582781530975819" />
+      <entry key="H1" value="9.788582443152924" />
+      <entry key="H2" value="9.893578834149613" />
+      <entry key="H4" value="9.94661001460464" />
+      <entry key="D1" value="9.991076640463081" />
+      <entry key="W1" value="9.998724619944515" />
+    </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -53,25 +151,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Cargo.Run.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.rust.reset.selective.auto.import": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/alexanderhussey/RustroverProjects/cerebral-stratum-firmware",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
-    "org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon": "",
-    "org.rust.first.attach.projects": "true",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Cargo.Run.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.rust.reset.selective.auto.import&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/alexanderhussey/RustroverProjects/cerebral-stratum-firmware&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;org.rust.cargo.project.model.PROJECT_DISCOVERY&quot;: &quot;true&quot;,
+    &quot;org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon&quot;: &quot;&quot;,
+    &quot;org.rust.first.attach.projects&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/utils" />
@@ -81,6 +191,14 @@
   </component>
   <component name="RustProjectSettings">
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.24374.151" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.24374.151" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -94,7 +212,37 @@
       <workItem from="1738289840066" duration="157000" />
       <workItem from="1738290010704" duration="45000" />
       <workItem from="1738290119862" duration="7038000" />
+      <workItem from="1779000017058" duration="169000" />
+      <workItem from="1779003278730" duration="161000" />
+      <workItem from="1779746717725" duration="3941000" />
+      <workItem from="1779771081351" duration="598000" />
+      <workItem from="1780400290294" duration="346000" />
     </task>
+    <task id="LOCAL-00001" summary="docs: add ADR for Vehicle IoT Device Architecture&#10;&#10;Created and structured ADR-0001 to document hardware, firmware, and product architecture decisions for the Vehicle IoT device. Includes components like ESP32-S3, BG95-S5, CAN bus integration, power architecture, and data transport strategy.">
+      <option name="closed" value="true" />
+      <created>1779003383911</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1779003383911</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ci: add GitHub Actions workflow to build, test, and deploy documentation">
+      <option name="closed" value="true" />
+      <created>1779761099252</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1779761099252</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fix(docs): correct broken anchor links in ADR-0001">
+      <option name="closed" value="true" />
+      <created>1779761571418</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1779761571418</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,5 +254,14 @@
     <option featureType="dependencySupport" implementationName="executable:podman" />
     <option featureType="dependencySupport" implementationName="executable:kubectl" />
     <option featureType="dependencySupport" implementationName="javascript:npm:vue" />
+  </component>
+  <component name="UpdateCopyrightCheckinHandler">
+    <option name="UPDATE_COPYRIGHT" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="docs: add ADR for Vehicle IoT Device Architecture&#10;&#10;Created and structured ADR-0001 to document hardware, firmware, and product architecture decisions for the Vehicle IoT device. Includes components like ESP32-S3, BG95-S5, CAN bus integration, power architecture, and data transport strategy." />
+    <MESSAGE value="ci: add GitHub Actions workflow to build, test, and deploy documentation" />
+    <MESSAGE value="fix(docs): correct broken anchor links in ADR-0001" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix(docs): correct broken anchor links in ADR-0001" />
   </component>
 </project>
