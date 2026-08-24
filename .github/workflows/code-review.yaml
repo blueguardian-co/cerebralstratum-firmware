@@ -1,0 +1,52 @@
+# .github/workflows/code-review.yaml
+name: Code Review
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: JetBrains/junie-github-action@v1
+        with:
+          junie_api_key: ${{ secrets.JUNIE_API_KEY }}
+          # Update the same comment on subsequent Junie runs instead of adding new comments
+          use_single_comment: true
+          # Alternatively, write your custom review instructions in the prompt field
+          # instead of using the built-in "code-review" value
+          prompt: |
+            Review this pull request for the CEREBRAL STRATUM device firmware (Rust on ESP-IDF/ESP32,
+            MQTT via `rumqttc`, tracks live GPS-tracked devices in the field).
+
+            Flag, in priority order:
+            1. Panics on the main/event path — `.unwrap()`, `.expect()`, `panic!()`, or array indexing that
+               can panic, on any code path that runs after boot (device init/setup panics are lower risk).
+               A panic on deployed hardware bricks the device until physical recovery; prefer `Result`
+               propagation, `?`, or explicit fallback/retry.
+            2. MQTT resilience — publish/subscribe/connect calls that don't handle disconnects or broker
+               errors, missing reconnect/backoff logic, or QoS choices that silently drop telemetry the
+               backend depends on.
+            3. Hardcoded secrets or network config — WiFi credentials, MQTT broker credentials/certs, or
+               device provisioning secrets committed directly in source instead of loaded from
+               `sdkconfig`/NVS/provisioning flow.
+            4. Unbounded resource use — heap allocation in tight loops, growing buffers/queues with no cap,
+               or blocking calls on the main task that could stall telemetry publishing — this runs on
+               constrained embedded hardware with no OOM killer to fall back on.
+            5. `unsafe` blocks — any new or changed `unsafe` code should have a comment justifying why it's
+               sound; flag unsafe that isn't clearly required by the ESP-IDF FFI boundary.
+            6. Build/feature flag correctness — changes to `Cargo.toml` features (e.g. `experimental`) or
+               `sdkconfig.defaults` that aren't reflected in the code paths they gate, or vice versa.
+
+            Also apply general good practice: correctness bugs, and any test coverage that's actually
+            feasible for the piece being changed (most of this crate is hardware-dependent and not unit
+            testable — don't demand tests where they're not practical).
