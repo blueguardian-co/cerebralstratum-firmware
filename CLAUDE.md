@@ -17,3 +17,9 @@ relevant issue in every commit so YouTrack can link and transition it automatica
 - This requires the committer's git email to be a member of the VCS integration's Committers group in
   YouTrack (Project Settings → VCS Repositories) — otherwise the commit still links but the state
   command is silently ignored.
+
+## Branch naming
+
+Create a feature branch off `qa` named after the relevant YouTrack issue ID (e.g. `CSPROD-247`, or
+`CSPROD-247-short-description`), then open a PR into `qa` — don't commit or push directly to `qa` or
+`main`.
